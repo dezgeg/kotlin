@@ -1,0 +1,15 @@
+VARIABLES T
+
+SUBTYPE T Int
+SUPERTYPE T Int !
+
+type parameter bounds:
+T >: Int(SPECIAL), <: Int(SPECIAL)
+status:
+-isSuccessful: true
+-hasContradiction: false
+-hasErrorInConstrainingTypes: false
+-hasViolatedUpperBound: false
+-hasTypeConstructorMismatch: false
+-hasConflictingConstraints: false
+-hasUnknownParameters: false
