@@ -685,6 +685,7 @@
         />
 
     <inspectionToolProvider implementation="org.jetbrains.jet.plugin.inspections.UnnecessaryLabelInspection$InspectionProvider"/>
+    <inspectionToolProvider implementation="org.jetbrains.jet.plugin.inspections.UnnecessaryTypeParameterInSuperInspection$InspectionProvider"/>
 
     <project.converterProvider implementation="org.jetbrains.jet.plugin.converters.JetRunConfigurationSettingsFormatConverterProvider"/>
 
