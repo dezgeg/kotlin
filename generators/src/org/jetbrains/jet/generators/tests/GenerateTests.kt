@@ -394,6 +394,7 @@ fun main(args: Array<String>) {
         }
 
         testClass(javaClass<AbstractJetInspectionTest>()) {
+            model("codeInsight/inspections", pattern = "^(inspections\\.test)$", singleClass = true)
             model("intentions", pattern = "^(inspections\\.test)$", singleClass = true)
         }
 

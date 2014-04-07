@@ -1,0 +1,7 @@
+class A() {
+    fun f() = 43
+}
+
+class B() : A {
+    fun f() = sup<caret>er.f() - 1
+}

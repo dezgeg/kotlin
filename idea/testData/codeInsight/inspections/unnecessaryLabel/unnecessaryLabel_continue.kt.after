@@ -1,0 +1,5 @@
+fun foo() {
+    @loop do {
+        cont<caret>inue
+    } while (false)
+}
